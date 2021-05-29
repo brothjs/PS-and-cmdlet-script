@@ -1,0 +1,1 @@
+Get-PhysicalDisk | Select -Prop DeviceId,FriendlyName,SerialNumber
