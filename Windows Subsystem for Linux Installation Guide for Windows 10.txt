@@ -1,0 +1,6 @@
+step 1 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+step 2 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+step 3 download https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+step 4 wsl --set-default-version 2
+
+ref: https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
